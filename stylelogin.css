@@ -1,0 +1,105 @@
+.menu{
+    background-color: black;
+    color:white
+  }
+  #tituloprincipal {
+    display: flex;
+    align-items: center;
+  }
+  
+  #tituloprincipal h1 {
+    margin: 0;
+    margin-right: auto;
+  }
+  
+  .menu {
+    display: flex;
+    float:inline-end;
+  }
+  
+  .menu-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu-items li {
+    margin-left: 10px;
+  }
+  
+  .menu-items a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #menuu {
+    margin-left: auto;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'calibri';
+  }
+
+  body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(img/Login.png);
+    background-size:100% ;
+  }
+
+  .formlogin{
+    width: 400px;
+    height: 340px;
+    background-color: #4e4d4d;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    box-shadow: 7px 13px 7px 0px rgba(0,0,0,0.75);
+  }
+  .formlogin h4{
+    margin: 0;
+    text-align: center; 
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .control{
+    width: 100%;
+    border: 1px solid #1f53c5;
+    margin-bottom:15px; 
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .botons{
+    width: 100%;
+    height: 40px;
+    border:none;
+    color: white;
+    background: #1f53c5;
+  }
+  .formlogin p{
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 1px solid;
+  }
+  .formlogin a{
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .formlogin a:hover{
+    text-decoration: underline;
+
+  }
