@@ -1,7 +1,14 @@
-.menu{
+  .menu{
     background-color: black;
     color:white
   }
+
+  body{
+    background-image: url(img/Fondoinicio.png);
+    background-size: 100%;
+    background-position-y: 40px;
+}
+
   #tituloprincipal {
     display: flex;
     align-items: center;
@@ -74,11 +81,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background-image: url(img/Fondoinicio.png);
-    background-size: 100%;
-    background-position-y: 40px;
-}
+
 
 #section b{
     font-size: 40px;
