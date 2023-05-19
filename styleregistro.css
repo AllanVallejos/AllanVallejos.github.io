@@ -39,9 +39,10 @@ body{
 
 .formregistro p{
     height: 40px;
-    text-align: center;
+    text-align: flex-start;
     font-size: 16px;
     line-height: 40px;
+    
 }
 
 .formregistro a{
@@ -114,3 +115,37 @@ body{
     border-radius: 4px;
     padding: 8px;
     font-size: 14px; }
+
+  input[type="checkbox"] {
+    /* Estilos generales */
+    margin-right: 5px;
+
+
+      
+      /* Estilos específicos del checkbox */
+      /* Puedes personalizar los estilos según tus preferencias */
+      width: 18px;
+      height: 18px;
+      border: 2px solid #000;
+      border-radius: 3px;
+      
+    }
+    
+    /* Estilos al pasar el mouse sobre el checkbox */
+    input[type="checkbox"]:hover {
+      background-color: #eee;
+    }
+    
+    /* Estilos cuando el checkbox está marcado */
+    input[type="checkbox"]:checked {
+      background-color: #000;
+    }
+    .container {
+      margin:20px 0px;
+      text-align: center;
+    }
+    
+    .checkbox {
+      display: inline-block;
+      vertical-align: middle;
+    }

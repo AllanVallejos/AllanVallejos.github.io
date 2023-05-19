@@ -14,7 +14,7 @@
         </div>
         <div id="menuu">
             <ul class="menu-items">
-                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="blog_login.html">Login</a></li>
             </ul>
         </div>
@@ -30,7 +30,10 @@
                     <label for="fechaNacimiento">Fecha de nacimiento:</label>
                     <input class="fecha-input" type="date" id="fechaNacimiento" name="fechaNacimiento">
                 </form>
-                <p>Estoy de acuerdo con <a href="#terminosycondiciones.html" > <input type="checkbox" name="tick" id="tick"> terminos y condiciones</a></p>
+                <div class="container">
+                    <input type="checkbox" name="tick" id="tick" class="checkbox">
+                    <label for="tick">Estoy de acuerdo con los <a href="terminosycondiciones.html">Términos y condiciones</a></label>
+                  </div>
                 <input class="botons"  id="id" type ="submit" value="Registrar">
                 </form>
         <p><a href="blog_login.html">Ya estoy registrado</a></p>
